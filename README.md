@@ -32,6 +32,13 @@
   python manage.py runserver
 ```
 
+## Creando un super user
+```
+  python3 manage.py createsuperuser
+```
 
-
-
+## Realizar migraciones
+```
+  python manage.py makemigrations
+  python manage.py migrate
+```
